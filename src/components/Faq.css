@@ -1,0 +1,35 @@
+.faq-section {
+  padding: 4rem 2rem;
+  background-color: #f9fafb;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.faq-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e3a8a;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.faq-answer {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}

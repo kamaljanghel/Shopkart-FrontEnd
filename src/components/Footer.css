@@ -1,0 +1,20 @@
+/* Footer.css */
+
+.custom-footer {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #6366f1); /* Match Header */
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-note {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}

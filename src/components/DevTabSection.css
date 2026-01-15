@@ -1,0 +1,66 @@
+.devtab-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.devtab-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.devtab-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.devtab-subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.devtab-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.devtab-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.devtab-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 160px;
+  transition: transform 0.3s ease;
+}
+
+.devtab-card:hover {
+  transform: translateY(-5px);
+}
+
+.devtab-logo {
+  max-width: 100%;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.devtab-company-name {
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+}

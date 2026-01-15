@@ -1,0 +1,188 @@
+/* Header.css */
+
+.custom-header {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.site-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 0.3rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #d7e49a;
+}
+
+/* Auth Section */
+.auth-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.auth-link {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.signup {
+  background-color: #22c55e;
+  border: none;
+}
+
+.signup:hover {
+  background-color: #16a34a;
+}
+
+/* 🌟 Header Branding (Text Logo) */
+.site-logo-text {
+  font-size: 1.9rem;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.techno {
+  color: #cfddee; /* Deep blue */
+}
+
+.sock {
+  color: #f7f7f7; /* Techy red/pink */
+  margin-left: 2px;
+}
+
+/* Optional animation on hover */
+.site-logo-text:hover .sock {
+  animation: pulseTech 0.6s ease-in-out;
+}
+
+@keyframes pulseTech {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+
+/* 🎨 Header Container */
+.custom-header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🖋️ Logo Styling */
+.site-logo-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.techno {
+  color: #ffffff;
+}
+
+.sock {
+  color: #60a5fa;
+}
+
+/* 🔗 Navigation */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 0.3rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #93c5fd;
+}
+
+/* 🔐 Auth Buttons */
+.auth-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  transition: color 0.2s ease;
+}
+
+.auth-link.signup {
+  border: 1px solid #60a5fa;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+}
+
+.auth-link.logout {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+}
+
+.auth-link.logout:hover {
+  color: #fca5a5;
+}

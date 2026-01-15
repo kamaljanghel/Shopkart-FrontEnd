@@ -1,0 +1,109 @@
+/* ================================
+📄 Page Container
+================================ */
+.services-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ================================
+🎯 Intro Section
+================================ */
+.services-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services-intro h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.services-intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ================================
+📦 Service Cards
+================================ */
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.service-card {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #1e40af;
+  margin-bottom: 0.75rem;
+}
+
+.service-card p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ================================
+🖼️ Services Banner (Hero Image)
+================================ */
+.services-banner {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.services-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  filter: brightness(0.75); /* Better text visibility */
+}
+
+/* ================================
+📝 Banner Text Overlay
+================================ */
+.services-banner-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 0 1rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.services-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.services-subtext {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,60 @@
+.community-section {
+  padding: 4rem 2rem;
+  background: #f3f4f6;
+  text-align: center;
+}
+
+.community-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.community-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #4b5563;
+}
+
+.community-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.community-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  width: 180px;
+  transition: transform 0.3s;
+}
+
+.community-card:hover {
+  transform: translateY(-5px);
+}
+
+.community-icon {
+  font-size: 2rem;
+}
+
+.community-count {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: #1e40af;
+}
+
+.community-desc {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.community-platform {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #2563eb;
+}
